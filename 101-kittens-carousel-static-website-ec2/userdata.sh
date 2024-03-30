@@ -16,3 +16,6 @@ wget ${FOLDER}/cat0.jpg
 wget ${FOLDER}/cat1.jpg
 wget ${FOLDER}/cat2.jpg
 
+# start and enable Apache service
+systemctl start httpd
+systemctl enable httpd
